@@ -11,3 +11,5 @@ def find_second_largest(arr):
     print(second_largest)
 
 find_second_largest([1,8,10,20,30,25])
+# TC: 0(N)
+# SC:O(1)
