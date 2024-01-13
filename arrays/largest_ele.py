@@ -8,6 +8,8 @@ def find_largest_element(arr):
 
 find_largest_element([1,3,4,22,11]) 
 # print(largest_no)
+# TC-O(n)
+# SC-O(n)
 
 
 
