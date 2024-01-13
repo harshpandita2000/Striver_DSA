@@ -7,17 +7,14 @@ def check_arr_sorted(arr):
         else:
             if arr[i]<arr[i+1]:
                 descend=False
-    print(ascend,descend)
-    print(ascend or descend)
-# array =[ 1,3,4,5]
-# array= [5,4,3,2,1]
-#array = [1,2,4,4,9]
+    return ascend or descend
 
 array= [4,4,4]
 
 check_arr_sorted(array)
 
-
+# TC:O(N) #SInce we are traversing till size of n-1 but we ignore constant so its taking O(n)complexity..
+# SC:O(1) as we created 3 variables and its a fixed size array ,so its taking O(1) space complexity..
 # 1,2,3
 # ele        ascend      descend
 #           true           true
