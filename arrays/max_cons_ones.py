@@ -16,11 +16,11 @@ print(max_consecutive_one(arr))
 # TC:O(N)
 # SC:O(N) #WORST CASE WHEN ALL ELEMENTS R 0'S 
 def max_consecutive_1(arr):
-    cnt=0
-    maxi=0
+    cnt = 0
+    maxi = 0
     for i in range(len(arr)):
-        if arr[i]==1:
-            cnt+=1
+        if arr[i] == 1:
+            cnt += 1
         else:
             cnt = 0
     maxi = max(maxi, cnt)
