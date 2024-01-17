@@ -104,4 +104,12 @@ def sum_k_optimized(arr, k):
             leng = max(leng, end - start + 1)
 
     return leng
+arr=[8, 15, 17, 0, 11]
+print(sum_k_optimized(arr, 17))
+# Iteration	 start	   end	   arr_      sumleng
+# 1	          0	        0	    8	        0
+# 2	          0	        1	    23	        2
+# 3	          2	        2	    17	        2
+# 4	          3	        3	    17	        2
+# 5	          4	        4	    28	        2
 
