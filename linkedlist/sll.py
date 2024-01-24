@@ -3,8 +3,6 @@ class Node:
         self.data = data
         self.next = None
   
-    
-
 # n1 = Node(10)
 # print(n1)
 # n1.next = Node(20)
@@ -94,8 +92,18 @@ class SinglyLinkedList:
             else:
                 curr_node = curr_node.next
         return False
-            
-       
+
+    def reverse(self):
+        prev = None
+        curr_node = self.head
+        self.tail = self.head
+        nextt = None
+        while curr_node:
+            nextt = curr_node.next
+            curr_node.next = prev
+            prev = curr_node
+            curr_node = nextt
+        self.head = prev
 s1 = SinglyLinkedList()
 s1.insert_at_end(10)
 s1.insert_at_end(20)
@@ -105,7 +113,8 @@ s1.insert_at_end(60)
 s1.delete(60)
 # print(f"{s1.head.data}->{s1.head.next.data} ->{s1.head.next.next} ")
 print(s1)
-print(s1.tail.data)
+s1.reverse()
+print(s1)
 
         
 
