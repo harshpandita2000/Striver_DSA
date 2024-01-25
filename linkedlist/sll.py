@@ -44,7 +44,28 @@ class SinglyLinkedList:
         new_node.next = self.head
         self.head = new_node
         self.length += 1
-
+  #or##################################################################
+    #   def insert_at_end(self, data):
+    #     new_node = Node(data)
+    #     if self.head == None:
+    #         self.head = new_node
+    #         self.tail = self.head
+    #     else:
+    #         self.tail.next = new_node
+    #         self.tail = self.tail.next
+    
+    # def insert_at_start(self, data):
+    #     new_node = Node(data)
+    #     if self.head == None:
+    #         self.head = new_node
+    #         self.tail = self.head
+    #     else:
+    #         new_node.next = self.head
+    #         self.head = new_node  
+    
+    
+    
+    
     def pop(self):
         if self.length == 1:
             deleted_node = self.head.data
