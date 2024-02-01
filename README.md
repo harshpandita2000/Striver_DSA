@@ -21,11 +21,11 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 <h2 id="contributing">Contributing</h2>
 <p>Contributions are highly encouraged! If you have a new solution or an improvement to an existing one, follow these steps:</p>
 <ul>
-  <li><a href="#fork-repo">Fork the repository.</a></li>
-  <li><a href="#create-branch">Create a new branch for your feature or bug fix.</a></li>
-  <li><a href="#implement-changes">Implement your changes.</a></li>
-  <li><a href="#test-thoroughly">Test thoroughly.</a></li>
-  <li><a href="#submit-pr">Submit a pull request with a clear description of your changes.</a></li>
+  <li>Fork the repository.</li>
+  <li>Create a new branch for your feature or bug fix.</li>
+  <li>Implement your changes.</li>
+  <li>Test thoroughly.</li>
+  <li>Submit a pull request with a clear description of your changes.</li>
 </ul>
 <p><strong>Please make sure your code adheres to the repository's coding standards and includes appropriate comments to explain the logic.</strong></p>
 
