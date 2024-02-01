@@ -1,7 +1,7 @@
 <h1>Data Structures and Algorithms Solutions - Striver's DSA Sheet</h1>
 
 <h2>Overview:</h2>
-<p>This repository is a work-in-progress collection of solutions to problems from Striver's Data Structures and Algorithms (DSA) sheet. Striver's DSA sheet is a popular resource for preparing for coding interviews and competitive programming. The solutions provided here are implemented in various programming languages, with the aim of helping you understand and practice different approaches to problem-solving.</p>
+<p>This repository is a work-in-progress collection of solutions to problems from Striver's Data Structures and Algorithms (DSA) sheet. Striver's DSA sheet is a popular resource for preparing for coding interviews and competitive programming. The solutions provided here are implemented in python with the aim of helping you understand and practice different approaches to problem-solving.</p>
 
 <h3>Usage:</h3>
 <p>Feel free to explore the solutions provided in this repository as you work through Striver's DSA sheet. You can navigate through the folders based on the topic or specific problem you are currently studying. Additionally, you are invited to contribute by adding your own solutions or suggesting improvements to existing ones.</p>
