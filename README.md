@@ -31,7 +31,10 @@ https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2
 
 <h2 id="folder-structure">Folder Structure</h2>
 <p>The repository is organized by topic, and each topic folder contains subfolders for individual problems. The structure is designed to make it easy for you to find and navigate through specific solutions. If you have suggestions for improving the folder structure, feel free to discuss it in the issues section.</p>
-<div align="center">
-  <img src="https://media4.giphy.com/media/fwbZnTftCXVocKzfxR/200.webp?cid=ecf05e479eulmvsv70s5esvv0nfsqvep5zoob9jdm64sc87k&ep=v1_gifs_search&rid=200.webp&ct=g" width="130"/>
-</div>
+<h2>If you like it, please give it a star ⭐!</h2>
+    <p>By giving this repository a star ⭐, you show your support and encourage more contributions. Thank you!</p>
+
+  <hr>
+
+  <p align="center">Happy Coding! 💻</p>
 
